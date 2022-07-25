@@ -120,11 +120,12 @@ body{
 
 /* ---------------------------------------------------APPERTURE--*/
 .block__aperture {
+}
+
+.aperture {
 	background: linear-gradient(360deg, #000000 18.78%, rgba(0, 0, 0, 0) 98.53%), url(../img/aperture/block-aperture.jpg) no-repeat center;
 	background-size: cover;
 }
-
-.aperture {}
 
 .aperture__body {
 	max-width: 600px;
