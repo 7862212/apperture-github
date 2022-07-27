@@ -249,6 +249,25 @@ body{
 	margin-bottom: 10px;
 }
 
-.card__button {}
+.card__button {
+	display: flex;
+    align-items: center;
+	background: #fff;
+	width: 143px;
+	height: 42px;
+	border-radius:  15px /  15px;
+	margin: 13px 0 30px 30px;
+}
 
+.card__button-text{
+	padding: 7px 10px 13px 3px;
+}
+
+.card__button-circle{
+	border-radius: 20px;
+	background: black;
+	width: 32px;
+	height: 32px;
+	margin: 5px;
+}
 .footer {}
