@@ -177,5 +177,78 @@ body{
 
 .aperture__image {}
 
+/* ---------------------------------------------------ACTIVITI-*/
+
+.block__activity {}
+
+.activity {
+	background: #000000;
+}
+
+.activity__body {
+	padding: 120px 0 45px 0;
+}
+
+.activity__title {
+	font-size: 40px;
+	line-height: 42px;
+	text-align: center;
+	color: #FFFFFF;
+	margin: 0 0 15px 0;
+}
+
+.activity__subtitle {
+	font-size: 23px;
+	line-height: 30px;
+	text-align: center;
+	color: #C0C0C0;
+}
+
+.activity__cards {
+}
+
+.card {
+}
+
+.card__photography{
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card__pic {
+	position: relative;
+	margin: 0 16px 16px 0;
+}
+
+.card__pic img{
+	max-width: 100%;
+	height: auto;
+}
+
+.card__body {
+	position: absolute;
+	width: 500px;
+	left: 30px;
+	bottom: 30px;
+}
+
+.card__title {
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-bottom: 15px;
+}
+
+.card__text {
+	font-size: 14px;
+	line-height: 20px;
+	color: #C0C0C0;
+	margin-bottom: 10px;
+}
+
+.card__button {}
 
 .footer {}
