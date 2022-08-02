@@ -136,6 +136,12 @@ body{
 
 .block__mount-fuji {}
 
+.block-tools {}
+
+.block__past-clients {}
+
+.block__himalayas {}
+
 /* ---------------------------------------------------APPERTURE--*/
 .aperture {
 	background: linear-gradient(360deg, #000000 18.78%, rgba(0, 0, 0, 0) 98.53%), url(../img/aperture/block-aperture.jpg) no-repeat center;
@@ -334,5 +340,202 @@ body{
 .mount-fuji__icon-text:not(:last-child){
 	margin-right: 16px;
 }
+
+/* -------------------------------------------------------------TOOLS */
+
+.tools {
+	background: black url(../img/tools/tools.jpg) right no-repeat;
+}
+
+.tools-description {
+	/*display: flex;*/
+}
+
+.tools__body {
+	padding: 113px 0 85px 0;
+	margin-left: -40px;
+}
+
+.tools__body-subtitle {
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #C0C0C0;
+	margin-bottom: 6px;
+}
+
+.tools__body-title {
+	font-size: 28px;
+	line-height: 32px;
+	color: #FFFFFF;
+	margin-bottom: 14px;
+}
+
+.tools__body-text {
+	width: 455px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #C0C0C0;
+	margin-bottom: 20px;
+}
+
+.tools__icons {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding-bottom: 40px;
+}
+
+.tools__icon {
+	margin-right: 7px;
+}
+
+.tools__icon-text {
+	font-size: 12px;
+	line-height: 12px;
+	color: #FFFFFF;
+}
+
+.tools__icon-text:not(:last-child) {
+	margin-right: 16px;
+}
+
+/* -------------------------------------------------------------TOOLS */
+
+.block__monstera-leafs {}
+
+.monstera-leafs {
+	background: url(../img/monstera-leafs/monstera-leafs.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.monstera-leafs__body {
+	max-width: 300px;
+	padding: 260px 0 216px 0;
+	margin-left: auto;
+}
+
+.monstera-leafs__title {
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.monstera-leafs__text {
+	font-size: 14px;
+	line-height: 20px;
+	color: #C0C0C0;
+}
+
+.monstera-leafs__icons {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding-bottom: 40px;
+}
+
+.icon {}
+
+.monstera-leafs__icon {
+	margin-right: 7px;
+}
+
+.monstera-leafs__icon-text {
+	font-size: 12px;
+	line-height: 12px;
+	color: #FFFFFF;
+}
+
+.monstera-leafs__icon-text:not(:last-child) {
+	margin-right: 16px;
+}
+
+/* -------------------------------------------------------------CLIENTS */
+
+
+.past-clients {
+	background-color: black;
+}
+
+.past-clients__body {}
+
+.past-clients__title {
+	font-size: 40px;
+	line-height: 42px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-bottom: 15px;
+	padding-top: 113px;
+}
+
+.past-clients__text {
+	font-size: 24px;
+	line-height: 30px;
+	text-align: center;
+	color: #C0C0C0;
+	margin-bottom: 42px;
+}
+
+.past-clients__clients {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 46px 170px 46px;
+	
+}
+
+/* -------------------------------------------------------------himalayas */
+
+.himalayas {
+	background: url(../img/Himalayas/Himalayas.jpg) no-repeat center;
+		background-size: cover;
+}
+
+.himalayas__body {
+	max-width: 300px;
+	padding: 260px 0 216px 0;
+	margin-left: auto;
+}
+
+.himalayas__title {
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.himalayas__text {
+	font-size: 14px;
+	line-height: 20px;
+	color: #C0C0C0;
+}
+
+.himalayas__icons {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding-bottom: 40px;
+}
+
+.icon {}
+
+.himalayas__icon {
+	margin-right: 7px;
+}
+
+.himalayas__icon-text {
+	font-size: 12px;
+	line-height: 12px;
+	color: #FFFFFF;
+}
+
+.himalayas__icon-text:not(:last-child) {
+	margin-right: 16px;
+}
+
 
 .footer {}
